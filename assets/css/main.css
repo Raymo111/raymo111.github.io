@@ -2106,6 +2106,8 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
+	input[type="url"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -2127,6 +2129,8 @@
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
 		input[type="email"]:invalid,
+		input[type="tel"]:invalid,
+		input[type="url"]:invalid,
 		select:invalid,
 		textarea:invalid {
 			box-shadow: none;
@@ -2135,6 +2139,8 @@
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
+		input[type="tel"]:focus,
+		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
 			border-color: #f32853;
@@ -2178,6 +2184,8 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
+	input[type="url"],
 	select {
 		height: 2.75em;
 	}
@@ -2292,7 +2300,6 @@
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
-		padding-top: 10vh
 	}
 
 		.icon:before {
@@ -3306,7 +3313,7 @@
 /* Footer */
 
 	#footer {
-		padding: 8em 0 6em 0;
+		padding: 3em 0 6em 0;
 		background: #f6f6f6;
 		color: #aaa;
 		text-align: center;
