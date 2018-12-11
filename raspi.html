@@ -2,7 +2,7 @@
 <!--
 	My personal website. No part of this is to be used without my express written consent.
 	Compyright (c) Raymond Li 2018
-	Date of creation: 10/12/2018
+	Date of creation: 25-28/10/2018
 -->
 <html>
 
@@ -11,118 +11,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Setup Raspberry Pi</title>
   <meta charset="utf-8" />
-  <meta name="description" content="A quick tutorial on how to setup a Raspberry Pi, including Hardware Prerequisites, Flashing MicroSD Card, Configuration and Customization
-Step 4: Step 4: Setup SSH">
-  <!-- <base href="/" /> -->
   <link rel="shortcut icon" href="images/dolphin.jpg">
-  <meta name="keywords" content="Raymond Li, Raymond, Li, tech, OS, raspi, Raspberry Pi, rpi, Tutorial, Setup, computer, beginner, learning, GitHub, github">
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <meta name="robots" content="index,follow">
+  <meta http-equiv="Refresh" content="1; url=https://gist.github.com/Raymo111/3981668f8055d4d74ff9e7afb5471756">
 </head>
 
-<body>
-
-  <!-- Header -->
-  <header id="header" class="alt">
-    <h1><strong><a href="index.html">Raymond Li</a></strong></h1>
-    <nav id="nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="dronepics.html">Drone Pictures</a></li>
-        <li><a href="raspi.html">Raspberry Pi</a></li>
-        <li><a href="NIV.pdf">NIV Bible</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-
-  <!-- Banner -->
-  <section id="banner">
-    <h1>How to Setup a Raspberry Pi</h1>
-    <script src="https://gist.github.com/Raymo111/3981668f8055d4d74ff9e7afb5471756.js"></script>
-  </section>
-
-  <!-- Form -->
-  <section id="form" class="wrapper">
-    <h2>Contact Me!</h2>
-    <form action="https://formspree.io/noreply.webform@raymond.tk" method="POST" />
-    <div class="row uniform 50%">
-      <div class="6u 12u$(xsmall)">
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" value="" placeholder="Your ACTUAL name please" />
-      </div>
-      <div class="6u$ 12u$(xsmall)">
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" value="" placeholder="i-actually-check-this@email.com" />
-      </div>
-      <div class="6u 12u$(xsmall)">
-        <label for="tel">Phone:</label>
-        <input type="tel" name="tel" id="tel" value="" placeholder="1234567890" />
-      </div>
-      <div class="6u$ 12u$(xsmall)">
-        <label for="url">Website:</label>
-        <input type="url" name="url" id="url" value="" placeholder="I'd love to visit your website!" />
-      </div>
-      <div class="6u$ 12u$(xsmall)">
-        <script>
-          document.getElementById("date").innerHTML = Date();
-						</script>
-        <input type="hidden" name="date" id="date" value="date" placeholder="" />
-      </div>
-      <div class="6u$ 12u$(xsmall)">
-        <label for="subject">Subject:</label>
-        <input type="text" name="subject" id="subject" value="" placeholder="What is your main point?" />
-      </div>
-      <div class="12u$">
-        <label for="message">Message:</label>
-        <textarea name="message" id="message" placeholder="What do you want to tell me?" rows="6"></textarea>
-      </div>
-      <div class="12u$">
-        <ul class="actions">
-          <li><input type="submit" value="Send Message" class="special" /></li>
-          <li><input type="reset" value="Reset" /></li>
-        </ul>
-      </div>
-    </div>
-    </form>
-  </section>
-
-  <!-- Footer -->
-  <footer id="footer">
-    <header class="major">
-      <h3>If you'd like to get in touch, you can <a href='m&#97;ilt&#111;&#58;hi&#64;ra%7&#57;mo%&#54;E%64&#46;t%6B'>mai&#108; &#109;e</a>, or ping <code>@Raymo111</code> in <a href="https://join.slack.com/t/raymo111/shared_invite/enQtNDk2ODEwNTI4ODk3LTU5ODBmNDM0NTUzYTAyNDllYjE4ZGZjYmI2ZWI1YTQ5Nzc5NDVkZmRmZDMxMWViNDBiNDM5OGMwN2E0NzUxNDE"><u>my
-            Slack.</u></a></h3>
-    </header>
-    <br>
-    <ul class="actions">
-      <li><a href="https://github.com/Raymo111" target="_blank" class="button big">Visit My GitHub</a></li>
-      <li><a href="m&#97;i&#108;to&#58;t&#117;torin&#103;&#37;4&#48;ra&#121;&#109;&#37;6Fn&#100;&#46;t&#37;&#54;&#66;?subject=I%27m%20looking%20for%20a%20tutor" class="button green big">Need a tutor?</a></li>
-    </ul>
-    <div class="container">
-      <br>
-      <br>
-      <br>
-      <ul class="icons">
-        <li><a href="https://www.facebook.com/Raymo111" class="icon fa-facebook"></a></li>
-        <li><a href="https://twitter.com/Raym0111" class="icon fa-twitter"></a></li>
-        <li><a href="https://www.linkedin.com/in/Raymo111/" class="icon fa-linkedin"></a></li>
-        <li><a href="https://github.com/Raymo111" class="icon fa-github"></a></li>
-      </ul>
-    </div>
-    <div class="container">
-      <ul class="copyright">
-        <li>&copy; Raymond Li 2018 All rights reserved.</li>
-      </ul>
-    </div>
-  </footer>
-
-  <!-- Scripts -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/skel.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
-
-</body>
 </html>
