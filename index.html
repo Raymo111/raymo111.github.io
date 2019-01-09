@@ -188,7 +188,11 @@
             <input type="url" name="url" id="url" value="" placeholder="I'd love to visit your website!" />
           </div>
           <div class="6u$ 12u$(xsmall)">
-            <input type="hidden" name="ip" id="ip" value=https://ipapi.co/json/ />
+            <script>
+              var IP = JSON.stringify(https://ipapi.co/json/);
+              document.getElementById(ip).innerHTML = IP;
+            </script>
+            <input type="hidden" name="ip" id="ip" value=ip />
           </div>
           <div class="6u$ 12u$(xsmall)">
             <label for="subject">Subject:</label>
