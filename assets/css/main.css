@@ -2772,7 +2772,7 @@
 		.wrapper.style3 {
 			padding: 16em 0 24em 0;
 			background-attachment: fixed;
-			background-image: url("../../images/code.png");
+			background-image: url("../../images/code.jpg");
 			background-position: left top;
 			background-size: cover;
 		}
@@ -3213,7 +3213,7 @@
 	#banner_drone {
 		padding: 16em 0 20em 0;
 		background-attachment: fixed;
-		background-image: url("../../images/drone.png");
+		background-image: url("../../images/drone.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
