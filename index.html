@@ -1,4 +1,5 @@
-﻿<!DOCTYPE HTML>
+﻿
+<!DOCTYPE HTML>
 <!--
 	My personal website. No part of this is to be used without my express written consent.
 	Compyright (c) Raymond Li 2018
@@ -77,12 +78,14 @@
         </li>
         <li>
           <h3>
-            I'm most likely the only person ever who has installed raw <a href="https://www.archlinux.org/"><u>Arch</u></a> half a dozen times yet does not use it (I use a combination of Windows, Ubuntu) (plus Kali for Pentesting), but I can't be sure.
+            I'm most likely the only person ever who has installed raw <a href="https://www.archlinux.org/"><u>Arch</u></a> half a dozen times yet does not use it (I use a combination of Windows, Ubuntu) (plus Kali for Pentesting), but I can't be
+            sure.
           </h3>
         </li>
         <li>
           <h3>
-            Check out my latest dystopian-adventure novella on Wattpad: <a href="https://www.wattpad.com/story/167300041-30-days-after-humanity"><u>30 Days After Humanity</u></a> half a dozen times yet does not use it (I use a combination of Windows, Ubuntu) (plus Kali for Pentesting), but I can't be sure.
+            Check out my latest dystopian-adventure novella on Wattpad: <a href="https://www.wattpad.com/story/167300041-30-days-after-humanity"><u>30 Days After Humanity</u></a> half a dozen times yet does not use it (I use a combination of
+            Windows, Ubuntu) (plus Kali for Pentesting), but I can't be sure.
           </h3>
         </li>
       </ul>
@@ -188,11 +191,7 @@
             <input type="url" name="url" id="url" value="" placeholder="I'd love to visit your website!" />
           </div>
           <div class="6u$ 12u$(xsmall)">
-            <script>
-              var IP = JSON.stringify(https://ipapi.co/json/);
-              document.getElementById(ip).innerHTML = IP;
-            </script>
-            <input type="hidden" name="ip" id="ip" value=ip />
+            <input type="hidden" name="ip" id="ip" value=<script>IP</script> />
           </div>
           <div class="6u$ 12u$(xsmall)">
             <label for="subject">Subject:</label>
@@ -215,7 +214,8 @@
       <!-- Footer -->
       <footer id="footer">
         <header class="major">
-          <h3>If you'd like to get in touch, you can <a href='m&#97;ilt&#111;&#58;hi&#64;ra%7&#57;mo%&#54;E%64&#46;t%6B'>mai&#108; &#109;e</a>, or ping <code>@Raymo111</code> in <a href="https://join.slack.com/t/raymo111/shared_invite/enQtNTIwMTg2MDgxNzkyLWViYWZhOTJkMTIyOTM3YjY0NjRmYzkwN2ZiYzc1MzhmNzNhMWM1YjNmMDA2YTJjMDM3NDI3MzY2Mzk1NGE4NzI"><u>my Slack.</u></a></h3>
+          <h3>If you'd like to get in touch, you can <a href='m&#97;ilt&#111;&#58;hi&#64;ra%7&#57;mo%&#54;E%64&#46;t%6B'>emai&#108; &#109;e</a>, or ping <code>@Raymo111</code> in <a href="https://join.slack.com/t/raymo111/shared_invite/enQtNTIwMTg2MDgxNzkyLWViYWZhOTJkMTIyOTM3YjY0NjRmYzkwN2ZiYzc1MzhmNzNhMWM1YjNmMDA2YTJjMDM3NDI3MzY2Mzk1NGE4NzI"><u>my
+                Slack.</u></a></h3>
         </header>
         <br>
         <ul class="actions">
@@ -238,15 +238,17 @@
             <li>&copy; Raymond Li 2018 All rights reserved.</li>
           </ul>
         </div>
-      </footer>
-
-</body>
-
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
-
+        <div class="container">
+          <div id="IP">IP Address should show here.</div>
+          <script>
+            document.getElementById('IP').innerHTML = (https://ipapi.co/json/).ip;
+          </script>
+        </div>
+        <script </footer> </body> <!-- Scripts -->
+          < script src = "assets/js/jquery.min.js" >
+        </script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
 
 </html>
