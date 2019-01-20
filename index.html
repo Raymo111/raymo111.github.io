@@ -239,10 +239,13 @@
           </ul>
         </div>
         <div class="container">
-          <div id="IP">IP Address should show here.</div>
+          <div>IP address: <span id="ipfield">loading...</span></div>
           <script>
-            document.getElementById('IP').innerHTML = (https://ipapi.co/json/).ip;
+            function callback(json) {
+              document.getElementById("ipfield").innerHTML = json.ip;
+            }
           </script>
+          <script src="https://ipapi.co/jsonp/"></script>
         </div>
         <script </footer> </body> <!-- Scripts -->
           < script src = "assets/js/jquery.min.js" >
