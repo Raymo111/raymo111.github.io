@@ -78,12 +78,6 @@
         </li>
         <li>
           <h3>
-            I'm most likely the only person ever who has installed raw <a href="https://www.archlinux.org/"><u>Arch</u></a> half a dozen times yet does not use it (I use a combination of Windows, Ubuntu) (plus Kali for Pentesting), but I can't be
-            sure.
-          </h3>
-        </li>
-        <li>
-          <h3>
             Check out my latest dystopian-adventure novella on Wattpad: <a href="https://www.wattpad.com/story/167300041-30-days-after-humanity"><u>30 Days After Humanity</u></a> half a dozen times yet does not use it (I use a combination of
             Windows, Ubuntu) (plus Kali for Pentesting), but I can't be sure.
           </h3>
@@ -191,7 +185,16 @@
             <input type="url" name="url" id="url" value="" placeholder="I'd love to visit your website!" />
           </div>
           <div class="6u$ 12u$(xsmall)">
-            <input type="hidden" name="ip" id="ip" value=<script>IP</script> />
+            <script>
+              fetch('https://ipapi.co/json/')
+                .then(function(response) {
+                  return response.json();
+                })
+                .then(function(myJson) {
+                  document.getElementById('IP').innerHTML = JSON.stringify(myJson.ip);
+                });
+            </script>
+            <input type="hidden" name="IP" value=<span id="IP"></span> />
           </div>
           <div class="6u$ 12u$(xsmall)">
             <label for="subject">Subject:</label>
@@ -237,18 +240,6 @@
           <ul class="copyright">
             <li>&copy; Raymond Li 2018 All rights reserved.</li>
           </ul>
-        </div>
-        <div class="container">
-          <div id="IP">IP Address should show here.</div>
-          <script>
-            fetch('https://ipapi.co/json/')
-              .then(function(response) {
-                return response.json();
-              })
-              .then(function(myJson) {
-                document.getElementById('IP').innerHTML = JSON.stringify(myJson.ip);
-              });
-          </script>
         </div>
         <script </footer> </body> <!-- Scripts -->
           < script src = "assets/js/jquery.min.js" >
