@@ -3,7 +3,6 @@
 <!--
 	My personal website. No part of this is to be used without my express written consent.
 	Compyright (c) Raymond Li 2019
-	Date of creation: 25-28/10/2018
 -->
 <html>
 
@@ -29,10 +28,9 @@
     <nav id="nav">
       <ul>
         <li><a href="index.html">Home</a></li>
+        <li><a href="https://github.com/Raymo111" target="_blank">GitHub</a></li>
         <li><a href="dronepics.html">Drone Pictures</a></li>
-        <li><a href="raspi.html">Raspberry Pi</a></li>
-        <li><a href="https://www.wattpad.com/story/167300041-30-days-after-humanity">30 Days After Humanity</a></li>
-        <li><a href="Resume.pdf">My R&eacute;sum&eacute;</a></li>
+        <li><a href="resume.pdf">My R&eacute;sum&eacute;</a></li>
         <li><a href="NIV.pdf">NIV Bible</a></li>
       </ul>
     </nav>
@@ -123,7 +121,7 @@
     </div>
   </section>
 
-  <!-- About Me -->
+  <!-- About Me
   <section id="about" class="wrapper">
     <div class="container">
       <header class="major">
@@ -140,7 +138,7 @@
         </h3>
       </header>
 
-      <!-- Quote -->
+      <!- Quote ->
       <section id="quote" class="wrapper style2 special">
         <div class="container">
           <header class="major">
@@ -149,6 +147,7 @@
           </header>
         </div>
       </section>
+-->
 
       <!-- Code -->
       <section id="code" class="wrapper style3 special">
@@ -162,62 +161,10 @@
         </header>
       </section>
 
-      <!-- Form -->
-      <section id="form" class="wrapper">
-        <h2>Contact Me!</h2>
-        <form action="https://formspree.io/noreply.webform@raymond.tk" method="POST" />
-        <div class="row uniform 50%">
-          <div class="6u 12u$(xsmall)">
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" value="" placeholder="Your ACTUAL name please" />
-          </div>
-          <div class="6u$ 12u$(xsmall)">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" value="" placeholder="i-actually-check-this@email.com" />
-          </div>
-          <div class="6u 12u$(xsmall)">
-            <label for="tel">Phone:</label>
-            <input type="tel" name="tel" id="tel" value="" placeholder="1234567890" />
-          </div>
-          <div class="6u$ 12u$(xsmall)">
-            <label for="url">Website:</label>
-            <input type="url" name="url" id="url" value="" placeholder="I'd love to visit your website!" />
-          </div>
-          <div class="6u$ 12u$(xsmall)">
-            <script>
-              fetch('https://ipapi.co/json/')
-                .then(function(response) {
-                  return response.json();
-                })
-                .then(function(myJson) {
-                  document.getElementById('IP').innerHTML = JSON.stringify(myJson.ip);
-                });
-            </script>
-            <input type="hidden" name="IP" value=<span id="IP"></span> />
-          </div>
-          <div class="6u$ 12u$(xsmall)">
-            <label for="subject">Subject:</label>
-            <input type="text" name="subject" id="subject" value="" placeholder="What is your main point?" />
-          </div>
-          <div class="12u$">
-            <label for="message">Message:</label>
-            <textarea name="message" id="message" placeholder="What do you want to tell me?" rows="6"></textarea>
-          </div>
-          <div class="12u$">
-            <ul class="actions">
-              <li><input type="submit" value="Send Message" class="special" /></li>
-              <li><input type="reset" value="Reset" /></li>
-            </ul>
-          </div>
-        </div>
-        </form>
-      </section>
-
       <!-- Footer -->
       <footer id="footer">
         <header class="major">
-          <h3>If you'd like to get in touch, you can <a href='m&#97;ilt&#111;&#58;hi&#64;ra%7&#57;mo%&#54;E%64&#46;t%6B'>emai&#108; &#109;e</a>, or ping <code>@Raymo111</code> in <a href="https://join.slack.com/t/raymo111/shared_invite/enQtNTIwMTg2MDgxNzkyLWViYWZhOTJkMTIyOTM3YjY0NjRmYzkwN2ZiYzc1MzhmNzNhMWM1YjNmMDA2YTJjMDM3NDI3MzY2Mzk1NGE4NzI"><u>my
-                Slack.</u></a></h3>
+          <h3>If you'd like to get in touch, you can <a href='m&#97;ilt&#111;&#58;hi&#64;ra%7&#57;mo%&#54;E%64&#46;li'>emai&#108; &#109;e</a>, or ping <code>@Raymo111</code> in <a href="slack.html"><u>my Slack.</u></a></h3>
         </header>
         <br>
         <ul class="actions">
