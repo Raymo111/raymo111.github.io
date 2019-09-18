@@ -4,9 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
 <url>
   <loc>https://raymond.li/</loc>
   <lastmod>2019-06-13T01:23:24+00:00</lastmod>
@@ -28,7 +25,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://raymond.li/assets/files/resume.pdf</loc>
+  <loc>https://raymond.li/resume.pdf</loc>
   <lastmod>2019-06-13T01:23:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
