@@ -1211,7 +1211,7 @@ section.lazy-placeholder:after {
 }
 
 .art {
-	background-image: url("../../../assets/images/art.gif");
+	background-image: url("/assets/images/art.gif");
 }
 
 .cid-rm9ZpThxgB {
@@ -1436,7 +1436,7 @@ section.lazy-placeholder:after {
 }
 
 .cid-rma8qVqzOF {
-	background-image: url("../../../assets/images/code.png");
+	background-image: url("/assets/images/code.png");
 }
 
 .cid-rma8KCPH9A {
@@ -1950,7 +1950,7 @@ section.lazy-placeholder:after {
 }
 
 .bible {
-	background-image: url("../../../assets/images/bible.jpg");
+	background-image: url("/assets/images/bible.jpg");
 }
 
 .cid-rGGqpHfnoE {
@@ -2551,7 +2551,7 @@ section.lazy-placeholder:after {
 }
 
 .binary- {
-	background-image: url("../../../assets/images/binary.png");
+	background-image: url("/assets/images/binary.png");
 }
 
 .cid-rGIxMUMmc4 {
