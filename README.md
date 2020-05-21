@@ -10,4 +10,4 @@
 
 ![Preview](assets/images/preview.png)
 
-Please feel free to use any part of this in anything you want, as long as you keep it open-source!
+Please feel free to use any part of this in anything you want, as long as you keep it open-source! I'd also appreciate a link to https://raymond.li on as many pages as you can if you choose to use this on the web. It doesn't have to be visible (can be tiny and same color as background), but it helps my SEO massively. Thank you!!!
