@@ -23,8 +23,4 @@
 		<loc>https://raymond.li/403.html</loc>
 		<priority>0.70</priority>
 	</url>
-	<url>
-		<loc>https://raymond.li/slack.html</loc>
-		<priority>0.60</priority>
-	</url>
 </urlset>
