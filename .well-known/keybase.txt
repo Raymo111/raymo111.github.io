@@ -1,0 +1,53 @@
+https://keybase.io/raymo111
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://raymond.li
+  * I am raymo111 (https://keybase.io/raymo111) on keybase.
+  * I have a public key ASBX-vmqOnM3PJ29R4hezzRlTwxw_-1U2C4VLogRCrDkTAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101a9d61e037bb5c7f82de3be807a44e6b44c5d7c7e565191122366a33d64103dda0a",
+      "host": "keybase.io",
+      "kid": "012057faf9aa3a73373c9dbd47885ecf34654f0c70ffed54d82e152e88110ab0e44c0a",
+      "uid": "a3879d14243088695de27130589c0a19",
+      "username": "raymo111"
+    },
+    "merkle_root": {
+      "ctime": 1606949302,
+      "hash": "a6ac7635272d255f471524f12380f75f9cf5346a530d50a6a7fffaf03b44387eb2702961af0be1e6c889b1d493ea94680b958306a421f563210abedb24dd11f0",
+      "hash_meta": "268c976b8deb313d8fce5e577f2c5005e60644031502921f4be2f932e983cccc",
+      "seqno": 18294347
+    },
+    "service": {
+      "entropy": "sDpYTSFaKqs/nR4y9Q9VbmW+",
+      "hostname": "raymond.li",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.2"
+  },
+  "ctime": 1606949314,
+  "expire_in": 504576000,
+  "prev": "4b9bffb1f061755c73cba4631875df7b47fa1dfac080fc586c651b9ec745d4f1",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgV/r5qjpzNzydvUeIXs80ZU8McP/tVNguFS6IEQqw5EwKp3BheWxvYWTESpcCB8QgS5v/sfBhdVxzy6RjGHXfe0f6HfrAgPxYbGUbnsdF1PHEIJlV1Ft9Cpb0Hpkx329OepExdCRCsG0GDEvcPkgzkBncAgHCo3NpZ8RAtCW9mA75raqN4dAO8SS99r1fmdw0Y9CVa/uEIq/iApDeTmxJ36rqozZ+D1Mdo3W260G9zkFm6KDhC8YFH1V8AahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPaOHoJ/Zt5XdMHn6Q5YBFrtv0z00iRdbfN7lcwnmZJbo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/raymo111
