@@ -47,7 +47,6 @@ which yields the signature:
 
 hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgV/r5qjpzNzydvUeIXs80ZU8McP/tVNguFS6IEQqw5EwKp3BheWxvYWTESpcCB8QgS5v/sfBhdVxzy6RjGHXfe0f6HfrAgPxYbGUbnsdF1PHEIJlV1Ft9Cpb0Hpkx329OepExdCRCsG0GDEvcPkgzkBncAgHCo3NpZ8RAtCW9mA75raqN4dAO8SS99r1fmdw0Y9CVa/uEIq/iApDeTmxJ36rqozZ+D1Mdo3W260G9zkFm6KDhC8YFH1V8AahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPaOHoJ/Zt5XdMHn6Q5YBFrtv0z00iRdbfN7lcwnmZJbo3RhZ80CAqd2ZXJzaW9uAQ==
 
-And finally, I am proving ownership of this host by posting or
-appending to this document.
+And finally, I am proving ownership of this host by posting this document.
 
 View my publicly-auditable identity here: https://keybase.io/raymo111
