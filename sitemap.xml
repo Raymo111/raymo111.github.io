@@ -15,12 +15,4 @@
 		<loc>https://raymond.li/bible.html</loc>
 		<priority>0.80</priority>
 	</url>
-	<url>
-		<loc>https://raymond.li/404.html</loc>
-		<priority>0.70</priority>
-	</url>
-	<url>
-		<loc>https://raymond.li/403.html</loc>
-		<priority>0.70</priority>
-	</url>
 </urlset>
